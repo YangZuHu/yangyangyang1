@@ -1,0 +1,51 @@
+<script>
+//  Git快照类似于备份，版本切换特别快，空间换时间 
+
+//  Git管理三个区域，工作区、暂存区、Git仓库 
+//四种小状态:未跟踪(Untracked) => 未被Git管理 => 已被Git管理:Git管理三种状态 - (未修改Unmodified) 
+//  Git管理三种状态，已修改modified、已暂存staged、已提交committed 
+
+
+// 安装Git：https://git-scm.com/download/win
+
+// 配置用户名
+"git config --global user.name "itheima""
+// 配置邮箱地址
+"git config --golbal user.email "itheima@itcast.cn""
+// 全局配置文件
+"users/用户名文件夹/.gitconfig"
+//查看所有全局配置项
+"git config --list --global"
+//查看指定全局配置项
+"git config user.name"
+"git config user.email"
+//帮助手册-浏览器
+"git help config"
+//帮助手册-终端
+"git  config -h"
+
+//获取仓库两种方式,1从本地将目录转化为仓库,2从服务器克隆一个
+//通过Git Bash执行git init 命令将当前的目录转化为Git仓库,git init会创建一个名为.git的隐藏目录,里面包含初始必要文件
+
+//查看文件状态
+"git status"
+//以精简的方式显示文件状态
+// ??index.html表示文件未跟踪(??)
+"git status -s"
+"git status --short"
+//跟踪文件
+//绿色A 表示已新添加到暂存区
+"git add index.html"
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
