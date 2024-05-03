@@ -33,26 +33,29 @@
 // ??index.html表示文件未跟踪(??)
 "git status -s"
 "git status --short"
+"??index.html"
 //跟踪文件
 //查看状态绿色A 表示已新添加到暂存区
 //把已修改的文件放入到暂存区
 "git add index.html"
-A index.html
-1
+"A index.html"
+
 //快速清空终端
 "clear"
 //提交更新命令,将暂存区文件提交到Git仓库中
 "git commit -m "新建了index.html文件"" 1
 //已修改未被放到暂存区
-M(红色) index.html
+"M(红色) index.html"
 //已修改已放到暂存区
-M(绿色) index.html
+"M(绿色) index.html"
 //撤销对文件的修改
-//用git仓库中保存的文件,覆盖工作区中指定的文件
-123
-儿2432534
-
-
+//11.用git仓库中保存的文件,覆盖工作区中指定的文件
+"git checkout -- index.html"
+//12.向暂存区一次性添加多个文件
+"git add ."
+//13.取消暂存文件,从暂存区移除暂存文件
+"git reset HEAD index.html"
+"git reset HEAD ."
 
 
 
