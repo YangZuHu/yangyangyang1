@@ -56,10 +56,24 @@
 //13.取消暂存文件,从暂存区移除暂存文件
 "git reset HEAD index.html"
 "git reset HEAD ."
-
-
-
-
+//14.跳过使用暂存区
+"git commit -a -m "index.html index.css""
+//15.移除文件
+//从Git仓库和工作区中同时移除对应的文件
+// D表示文件从工作区移除了
+"git rm -f index.js"
+"D  index.js"
+//只从Git仓库中移除 index.css,但保留工作区中的 index.css 文件
+"git rm --cached index.css"
+1
+//Day2
+//01.开源相关的概念
+//常见开源协议,
+// GPL具有传染性的一种开源协议，不允许修改后和衍生的代码作为闭源的商业软件作为发布和销售，
+// 使用GPL著名软件Linux
+"常见开源协议 GPL、MIT"
+// MIT是目前限制最少的协议，唯一的条件：在修改后的代码或者发行包中，必须包含原作者的许可信息
+// 使用MIT软件项目的有：jquery、node.js
 
 </script>
 <body><h1>ere23423w</h1></body>
